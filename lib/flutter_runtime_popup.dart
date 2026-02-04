@@ -1,5 +1,7 @@
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+library flutter_runtime_popup;
+
+export "src/runtime_popup_api_clients.dart";
+export "src/runtime_popup_controller.dart";
+export "src/runtime_popup_models.dart";
+export "src/runtime_popup_widget.dart";
+
