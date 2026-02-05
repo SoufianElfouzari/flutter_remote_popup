@@ -1,39 +1,32 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# flutter_remote_popup
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+**flutter_remote_popup** is a Flutter package that enables **server controlled, version aware, runtime popups** in Flutter applications.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+It allows you to display important messages, maintenance notices, update warnings, or blocking alerts that are fully controlled by a backend service, without requiring an app update or redeployment.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Server driven popup configuration  
+- Runtime popup delivery without app redeploy  
+- App version aware targeting  
+- Blocking and non blocking popups  
+- Centralized control over in app messages  
+- Reusable across multiple Flutter projects  
 
-## Getting started
+## Use Cases
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+- Force update notices for outdated app versions  
+- Maintenance and downtime announcements  
+- Emergency or legal notices  
+- Feature deprecation warnings  
+- Temporary service messages  
 
-## Usage
+## Why flutter_remote_popup
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Traditional Flutter popups are hardcoded and require a new app release to change.  
+This package moves popup logic to the backend, giving you full control after deployment.
 
-```dart
-const like = 'sample';
-```
+## Status
 
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+This package is under active development.  
+Documentation, examples, and extended configuration options will be added.
