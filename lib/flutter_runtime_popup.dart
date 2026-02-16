@@ -1,3 +1,5 @@
+library runtime_popup;
+
 export "src/runtime_popup_api_clients.dart";
 export "src/runtime_popup_controller.dart";
 export "src/runtime_popup_models.dart";
